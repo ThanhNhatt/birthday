@@ -1,0 +1,261 @@
+.icon-laptop{
+    background-color: #e0e0e0;
+    width: 78%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    
+}
+.icon-laptop img{
+    
+    place-self: center;
+   height: 30px;
+    border-radius: 50px;
+    margin-right: 20px;
+    
+}
+.icon-laptop img:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+
+}
+.slider-product-three-content{
+    background-color: #960300;
+    padding: 12px;
+    margin-right: -15%;  
+    width: 100%;
+    margin-top: -10px   ;
+}
+.slider-product-three-content-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slider-product-three-content-item{
+    width: 18%;
+    background-color: #fff;
+    padding: 40px 12px 60px 40px ;
+    border-radius: 30px;
+    
+}
+.slider-product-three-content-item > img{
+    width: 90%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.slider-product-three-content-item:hover >img{
+    transform: translateY(-20px);
+    animation: glow1 2s ease-in-out infinite;
+}
+@keyframes glow1 {
+    0% ,100%{
+        color: #00ffcc;
+        text-shadow: 0 0 20px rgb(255, 0, 0) , 0 0 50px rgb(244, 9, 127) , 0 0 100px rgb(25, 0, 255);
+    }
+    10%, 90%{
+        color: #06070a;
+        text-shadow: none;
+    }
+}
+.slider-product-three-content-item-text{
+    padding-top: 20px;
+    
+}
+.slider-product-three-content-item-text li{
+    margin-bottom: 6px;
+}
+.slider-product-three-content-item-text li:first-child{
+    height: 20px;
+    width: 70%;
+    background-color: #e45e0d;
+    display: inline-block;
+    margin-bottom: 20px;    
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 40px;
+}
+.slider-product-three-content-item-text li:first-child p{
+    color: #fff;
+    font-size: 12px;
+ 
+}
+.slider-product-three-content-item-text li:first-child img{
+    width: 20px;
+    float: left;
+    margin-right: 4px;
+}
+.slider-product-three-content-item-text li:nth-child(2):hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #960300;
+}
+.slider-product-three-content-item-text li:nth-child(3) {
+    font-style: inherit;
+    color: #7474e3;
+}
+.slider-product-three-content-item-text li:nth-child(4) a{
+   text-decoration: line-through;
+   color: #333;
+   font-size: 15px;
+   font-family: inherit;
+}
+.slider-product-three-content-item-text li:nth-child(5) {
+    font-weight: bold;
+    color: #f51212;
+}
+.slider-product-three-content-item-text li:nth-child(6) {
+    color: #a44699;
+    font-size: 13px;
+ }
+.slider-product-three-content-item-text li:last-child i{
+    color: #f97e0e;
+}
+/*-------------------product*/
+.slider-product-three-content-container{
+    position: relative;
+    overflow: hidden;
+}
+.slider-product-three-content-btn{
+    position: absolute;
+    top:50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider-product-three-content-btn i{
+    color: #333;
+    font-size: 32px;
+    height: 50px;
+    width: 25px;
+    background-color: #ce0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.slider-product-three-content-items-content{
+    position: relative;
+    height: 550px;
+    transition: all 0.8s ease;
+}
+.slider-product-three-content-items{
+    position: absolute;
+}
+.slider-product-three-content-items:nth-child(2){
+    transform: translateX(100%);
+}
+/*slide end*/
+:root{
+    --card-color:#0f0c18;
+    --border-color:#ffbd59;
+}
+.product-gallery-five-content{
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.product-gallery-five-content-product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: -20%;
+    border-radius: 50px;
+   
+}
+.product-gallery-five{
+    background-color: rgb(37,48,75);
+margin-top: 20px;
+    
+}
+
+
+.product-gallery-five-content-product-item{
+    width: 19%;
+    padding: 50px 12px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+    
+}
+.product-gallery-five-content-product-item:hover> img{
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+}
+.product-gallery-five-content-product-item >img{
+    width: 100%;
+}
+.product-gallery-five-content-product-item-text{
+    padding-top: 20px;
+}
+.product-gallery-five-content-product-item-text li{
+    margin-bottom: 6px;
+}
+.product-gallery-five-content-product-item-text li:first-child{
+    height: 30px;
+    width: 70%;
+    background-color: #ed9232;
+    display: inline-block;
+    margin-bottom: 20px;    
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 40px;
+
+}
+.product-gallery-five-content-product-item-text li:first-child p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.product-gallery-five-content-product-item-text li:first-child img{
+    width: 30px;
+    float: left;
+    margin-right: 2px;
+
+    
+}
+.product-gallery-five-content-product-item-text li:nth-child(2):hover{
+    color: rgb(66, 13, 191);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-gallery-five-content-product-item-text li:nth-child(3) {
+    font-family: initial;
+    color: #f36bc5
+}
+.product-gallery-five-content-product-item-text li:nth-child(4) a{
+   text-decoration: line-through;
+   color: #333;
+   font-size: 15px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.product-gallery-five-content-product-item-text li:nth-child(6) {
+    color: #537ce6;
+    font-size: 13px;
+ }
+ .product-gallery-five-content-product-item-text li:nth-child(7) {
+    color: #e45e0d;
+ }
+.product-gallery-five-content-product-item-text li:nth-child(5) {
+    font-weight: bold;
+    color: #f51212;
+}
+
+.slider-product-five-content-item-text li:last-child i{
+    color: #f97e0e;
+}

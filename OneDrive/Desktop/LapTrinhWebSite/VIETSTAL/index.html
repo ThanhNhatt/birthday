@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="app.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <center>  <header>Xin Chào!!  </header> </center>
+    
+      <form action="./home.html">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Nhập Email" class="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Vui lòng nhập email hợp lệ</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Nhập Mật Khẩu"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Nhập mật khẩu với Chữ hoa, chữ thường, số và ký tự đặc biệt
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Nhập lại mật khẩu"
+              class="cPassword"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Mật khẩu không khớp</p>
+          </span>
+        </div>
+        <div class="input-field button">
+          <input type="submit" value="Đăng Nhập" />
+        </div>
+      </form>
+    </div>
+
+    <script src="dnhap.js"></script>
+  </body>
+</html>

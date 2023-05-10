@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 77.5%;
+    padding-left: 20px;
+    margin-left: 160px;
+    
+    margin-top:-125px ;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.neon a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.neon a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.neon a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+.neon a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+.neon a span{
+    position: absolute;
+    display: block;
+}
+.neon a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.neon a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.neon a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.neon a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+.neon a span:nth-child(5){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+.slider-content-left-bottom3{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #ffffff;
+    border-top: none;
+    height: 10px;
+    animation-delay: 0.3s       ;
+}
+.slider-content-left-bottom4{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #080808;
+    border-top: none;
+    height: 10px;
+    animation-delay: 0.3s       ;
+}
+.slider-content-left-bottom3 li{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 0;
+    height: 10%;
+    line-height: 38px;
+    position: relative;
+}
+.slider-content-left-bottom3 li::before{
+    display: block;
+    content: "";
+     position: absolute;
+     height: 70%;
+     width: 1px;
+     background-color: #ffffff;
+     right: 0;
+     
+}
+.slider-content-left-bottom li.active{
+    border-top: 4px solid #fff200;
+   
+}
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  /*HEADER*/
+
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.container20 {
+  display: table-cell;
+  text-align: center;
+  align-items: center;
+}
+
+.flux {
+    width: 1145px;
+  font-family: neon;
+  color: #426DFB;
+  font-size: 4vw;
+  font-weight: bold;
+  background-color: #ffffff;
+  line-height: 6vw;
+  text-shadow: 0 0 3vw #2356FF;
+  margin-left: 160px;
+}
+
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #ff1010, 0 0 3vw #ff1010, 0 0 10vw #1041FF, 0 0 10vw #f7f7fa, 0 0 .4vw #00fbff, .5vw .5vw .1vw #147280;
+    color: #fe2828;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #5a6cb5, 0 0 5vw #082180, 0 0 5vw #9aa4ca, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #0b11c5;
+  }
+}
+
+
+  
