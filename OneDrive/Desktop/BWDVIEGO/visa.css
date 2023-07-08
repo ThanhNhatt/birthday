@@ -1,0 +1,70 @@
+.head{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.body{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.head table{
+    margin-left: 250px;
+}
+.head th{
+    margin-right: 100px;
+}
+.next th{
+    text-align: right;
+}
+.next tr:nth-child(5) button{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+.next  input{
+  width: 300px;
+  height: 30px;
+}
+.next button{
+width: 310px;
+height: 40px;
+background-color: #fff;
+
+}
+.next p{
+    margin-top:8px;
+}
+.next input{
+    outline: none;
+   
+}
+.next1{
+    display: flex;
+}
+.all{
+    outline: none;
+    margin-left: 300px;
+}
+.next tr{
+    margin-bottom: 10px;
+}
+
+.no p{
+    margin-left: 200px;
+}
+.hi{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+
+}
+.hi p{
+    margin-right: 55px;
+}
+.no p{
+    margin-left: 630px;
+    margin-top: -5px;
+}

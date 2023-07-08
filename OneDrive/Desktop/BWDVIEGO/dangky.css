@@ -1,0 +1,87 @@
+.signup-form {
+    width: 300px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-frame {
+    position: relative;
+  }
+  
+  .input-frame input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .input-frame label {
+    position: absolute;
+    top: 50%;
+    left: 20px; 
+    transform: translateY(-50%);
+    background-color: transparent;
+    padding: 0 5px;
+    font-size: 12px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-frame input:focus + label,
+  .input-frame input:not(:placeholder-shown) + label,
+  .input-frame input:valid + label {
+    top: 0;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 0 3px;
+    opacity: 1;
+  }
+  
+  button {
+    width: 100px;
+    padding: 8px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  button:hover {
+    background-color: #070b07;
+  }
+  .brown-background {
+    background-color: #ccc9e573;
+  }
+  .login-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    opacity: 0.7;
+    text-align: center;
+  }
+  .login-link span {
+    font-weight: bold;
+  }

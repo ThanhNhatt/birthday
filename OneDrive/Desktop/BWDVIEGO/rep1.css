@@ -1,0 +1,104 @@
+@media (min-width:320px) and (max-width:1100px){
+    .chat-container{
+        display: none;
+    }
+    #thanhdofood{
+        display: none;
+    }
+    #tenfood {
+        margin-top: 170px;
+        text-align: center;
+        font-family: 'Paytone One', sans-serif;
+        color: rgb(252, 181, 0);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+       display: none;
+      }
+      .swiper-container {
+        position: relative;
+      width: 80%;
+      height: 300px;
+      z-index: -9;
+      margin: 0 auto;
+      overflow: hidden;
+      margin-top: 50px;
+    }
+    #langnghetruyemthong h1{
+        padding-top: 5%;
+        font-size: 20px;
+        color: #df9b08;
+        font-family: 'Rowdies', cursive;
+      }
+      .bannerfood{
+        margin-top: 80px;
+        position: relative;
+        width: 100%;
+        height: 25vh;
+        background-color: #0f0e0e;
+        align-items: center;
+      }
+      #text-tour div:nth-child(2){
+        position: absolute;
+        left: 22%;
+       font-size: 60px;
+       color: white;
+       text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+       font-family: 'Londrina Shadow', cursive;
+      }
+      #btn-booknow-banner{
+        display: none;
+      }
+      #tieudenoibatfood{
+        padding: 30px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Oswald', sans-serif;
+        color: rgb(226, 14, 14);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+      }
+      #text-tour div:nth-child(1){
+        position: absolute;
+        width: 22%;
+        border-radius: 5px;
+        height: 4px;
+        bottom: 40px;
+      }
+      .swiper-slide {
+        margin-left: 20px;
+        margin-right: 20px;
+      width: 200px;
+      height:250px;
+      position: relative;
+      transform: translateY(50px);
+      transition: opacity 0.3s, transform 0.3s;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9);
+      padding-bottom: 60px;
+      z-index: 1;
+    }
+    .swiper-container {
+      position: relative;
+    width: 80%;
+    height: 320px;
+    z-index: -9;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  #tenfood {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(252, 181, 0);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  #lang{
+    margin-top: 5vh;
+    display: flex;
+    margin-left: -4%;
+  }
+}

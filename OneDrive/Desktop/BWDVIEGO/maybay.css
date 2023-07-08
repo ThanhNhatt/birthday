@@ -1,0 +1,439 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #feead3;
+  }
+  .features {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  }
+
+  .feature {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+
+  .feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .feature h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .feature p {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 12px;
+    color: #666;
+  }
+
+
+
+
+  #banner-plain{
+    margin-top: 80px;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/images/thele77vi-1657516027288.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .book-plain{
+    margin-left: 2%;
+    width: 469px;
+    height: 390px;
+    background-color: #fa2727;
+    border-radius: 25px;
+  }
+  .container-plain{
+    top: 20%;
+    left: 2.4%;
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  /* === */
+  #btnbook{
+  display: flex;
+  width: 100%;
+}
+#btnbook button{
+  border: 0px;
+  width:210px;
+  height: 30px;
+  
+}
+#btnmotchieu button{
+  font-weight: 600;
+  border-radius: 15px 0 0 0;
+  color: white;
+background-color: #fa2727;
+}
+#lech{
+  position: relative;
+  width: 50px;
+  height: 30px;
+}
+#lech1{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 30px 0 0 50px;
+border-color: transparent transparent transparent #fa2727;
+}
+#lech2{
+  position: absolute;
+  top:0;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 51px 31px 0;
+border-color: transparent rgb(233, 226, 226) transparent transparent;
+}
+#btnkh button{
+  font-weight: 600;
+  color: black;
+  border-radius: 0 15px 0 0;
+  background-color: rgb(233, 226, 226);
+}
+#bgmotchieu{
+  width: 456px;
+  height: 200px;
+  border-radius: 0 0 15px 15px;
+}
+#btnmc{
+  display: flex;
+  width: 100%;
+  margin: 10px auto;
+  margin-top: 40px;
+  justify-content: center;
+}
+#diemdi-plain{
+  display: flex;
+  margin-right: 11.5%;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+}
+#diemden-plain{
+  display: flex;
+  margin-left: 11.5%;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+}
+#diemdi-plain select{
+  margin-top: 5px;
+  margin-left: 5px;
+  text-indent: 2px;
+  border: 0px;
+  color: grey;
+width: 80px;
+height: 25px;
+}
+#diemden-plain select{
+  margin-top: 5px;
+  margin-left: 5px;
+  text-indent: 2px;
+  border: 0px;
+  color: grey;
+width: 80px;
+height: 25px;
+}
+#icon-address svg{
+width: 20px;
+height: 20px;
+color: red;
+margin: 6px;
+}
+#ngaynguoitime{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#ngaydi{
+  display: block;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: Calibri;
+  color: grey;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+#ngaydi input{
+  border: 0px;
+  width: 17px;
+  height: 22px;
+}
+#songuoi input{
+  border: 0px;
+  width: 30px;
+  height: 20px;
+}
+#songuoi{
+  display: block;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: Calibri;
+  color: grey;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+#thoigian select{
+  border: 0px;
+  width: 110px;
+  height: 25px;
+  font-size: 10px;
+}
+#thoigian{
+  display: block;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: Calibri;
+  color: grey;
+  padding-top: 3px;
+  margin-right: 10px;
+}
+#giatien{
+  margin: 10px auto;
+  display: flex;
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 40px;
+  text-indent: 10px;
+  font-family: Calibri;
+  font-size: 12px;
+  white-space: nowrap;
+}
+#chongia{
+  line-height: 28px;
+  margin-top: 6px;
+  margin-left: 6px;
+  border-radius: 5px;
+  font-size: 10px;
+  width: auto;
+  padding-right: 3px;
+  height: 28px;
+  background-color: rgb(240, 245, 245);
+  display: flex;
+  text-indent:2px;
+  color: rgb(86, 85, 85);
+}
+#chongia1{
+    line-height: 28px;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    width: auto;
+    padding-right: 3px;
+    height: 28px;
+    background-color: rgb(240, 245, 245);
+    display: flex;
+    text-indent:2px;
+    color: rgb(86, 85, 85);
+  }
+#chongia input{
+  width: 10px;
+  height: 9px;
+ margin-top: 4px;
+}
+#icondi svg{
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+}
+#btntimtour{
+  width: 100%;
+  text-align: center;
+}
+#btntimtour button{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  font-weight: 600;
+  width: 100px;
+  height: 25px;
+  border-radius: 3px;
+  border: 0;
+}
+#bgkh{
+  margin: 0px auto;
+  width: 470px;
+  height: 360px;
+  border-radius: 0 0 15px 15px;
+  background-color: rgb(233, 226, 226);
+  display: none;
+}
+#btndiadiem select{
+  background-color: rgb(85, 82, 82);
+  margin-top: 5px;
+  margin-left: 35px;
+  text-indent: 2px;
+  border: 0px;
+  color: white;
+width: 120px;
+height: 25px;
+}
+#btndiadiem{
+  margin-top: 10px;
+  display: flex;
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+  background-color: rgb(85, 82, 82);
+}
+#hanhkhach{
+display: block;
+}
+
+#chuahk{
+display:flex;
+margin: 10px auto;
+width: 50%;
+height: 55px;
+background-color: rgba(0,0,0,0.1);
+padding: 5px;
+border-radius: 10px;
+}
+#btnchk{
+padding: 4px;
+width: 60px;
+height: 45px;
+border-radius: 7px;
+font-size: 9px;
+text-align: center;
+background-color:white;
+color: rgb(102, 99, 99);
+margin-left: 10px;
+margin-right: 10px;
+}
+#btnchk input{
+border: 0px;
+margin-top: 7px;
+width: 30px;
+}
+#nhanhang{
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+}
+#nhanhang select{
+  margin-top: 5px;
+  margin-left: 5px;
+  text-indent: 2px;
+  border: 0px;
+  color: grey;
+width: 80px;
+height: 25px;
+}
+#batdaudulich{
+margin: 60px auto;
+width: 80%;
+font-size: 20px;
+text-align: center;
+color: #666;
+font-family: 'Geologica', sans-serif;
+}
+#container-fly{
+width: 80%;
+height: auto;
+margin: 0 auto;
+padding-bottom: 50px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card-fly{
+      position: relative;
+      width: 200px;
+      height: 220px;
+      border-radius: 10px;
+      background-color: rgba(145, 141, 141, 0.6);
+      margin: 20px;
+      overflow: hidden;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+     }
+     #bg-fly{
+      position: absolute;
+      top: 60px;
+      left: 55px;
+     }
+     #bg-fly img{
+      width: 90px;
+      height: 70px;
+      border-radius: 10px;
+      box-shadow: 1px 2px 2px  rgba(0,0,0,0.3);
+     }
+     #address-fly{
+      position: absolute;
+      white-space: nowrap;
+      text-align: center;
+      top: 10px;
+      left: 20px;
+      width: 150px;
+      height: 40px;
+     }
+     #address-fly div:nth-child(1){
+     font-size: 20px;
+     color: white;
+     font-weight: 600;
+     }
+     #address-fly div:nth-child(2){
+     font-size: 12px;
+     color: grey;
+     font-family: Calibri;
+     }
+     #price-fly{
+      left: 20px;
+      font-size: 20px;
+      color:rgb(251, 188, 1);
+      font-weight: 600;
+      text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+      bottom: 40px;
+      font-family: 'Braah One', sans-serif;
+      text-align: center;
+      position: absolute;
+      width: 150px;
+      height: 30px;
+     }
+     #btn-book-fly button{
+      position: absolute;
+      bottom:10px;
+      left: 38px;
+      border: 0;
+      text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+      color: white;
+      border-radius: 10px;
+      background-color: rgb(0, 174, 255);
+      padding: 7px 30px;
+     }
