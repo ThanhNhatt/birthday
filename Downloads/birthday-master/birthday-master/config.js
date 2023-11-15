@@ -3,16 +3,16 @@ var config = {
     // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
-        "Chúc fen",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "tủi mới niềm vui mới",  // 同上...
-        "cầu tình được tài",
-        "cầu tài được tình",
-        "cầu đặc",
-        "học dỏi",
-        "hhhpd",
-        "khungdienakdhajdhskdhakjd",
-        "aaaaaaaaaaaaaaaaaa",
-        "然后qqqqqqqq抱走",
+        "chúc bạn tủi mới",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
+        "cầu tình đc tài",  // 同上...
+        "cầu tài đc tình",
+        "háp biu bớt đê",
+        "giàu là đc",
+        "hc giỏ",
+        "hết biết lói gì",
+        "quan trọng là bộ lòng",
+        "qqqqqqqqqqqqqqqqqqqqqqq",
+        "aaaaaaaaaaaaaaaaaaa",
         "YAMI~~",
     ],
     /**
@@ -25,18 +25,18 @@ var config = {
      * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
      */
     imgs: {
-        "Nhân vật xém chính": "./imgs/thao.png",
+        "心爱的小可爱": "./imgs/thao.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-        turn_on: "Bật đèn lên fen ơi",
-        play: "Lên Nhạc dựt dựt",
-        bannar_coming: "Lên màu",
-        balloons_flying: "Thiếu cái chi rứa",
-        cake_fadein: "Thiếu cc, click dô",
-        light_candle: "tiếp",
-        wish_message: "Hắp bi bớt đê",
-        story: "Chúc fen tủi mới ",
+        turn_on: "Bật đèn đee",
+        play: "nhạc mạnh á, ",
+        bannar_coming: "click típ",
+        balloons_flying: "thiếu chi rứa",
+        cake_fadein: "thiếu cc",
+        light_candle: "dô",
+        wish_message: "2 3 dô",
+        story: "nhén",
     }
 };
