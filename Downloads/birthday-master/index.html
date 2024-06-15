@@ -37,7 +37,7 @@
 <body>
 <div class="loading"></div>
 <audio class="song" controls loop>
-    <source src="assets/hbd.mp3"></source>
+    <source src="assets/hpd.mp3"></source>
     Your browser isn't invited for super fun audio time.
 </audio>
 <div class="balloons text-center" id="b1">
@@ -125,22 +125,6 @@
                 <button class="btn btn-primary" id="light_candle"> Light Candle</button>
                 <button class="btn btn-primary" id="wish_message">Happy Birthday</button>
                 <button class="btn btn-primary" id="story">A mesage for you</button>
-                <audio class="song" controls muted id="backgroundAudio">
-                    <source src="assets/thay3.mp4" type="audio/mp4">
-                    Your browser isn't invited for super fun audio time.
-                </audio>
-                
-                <button class="btn btn-primary" id="playAudio">Nghe cúi cùng </button>
-                
-                <script>
-                    document.getElementById('playAudio').addEventListener('click', function() {
-                        var audio = document.getElementById('backgroundAudio');
-                        audio.muted = false; // Unmute the audio
-                        audio.play();
-                        this.disabled = true; // Disable the button after clicking
-                    });
-                </script>
-                
                 <!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
             </div>
         </div>
